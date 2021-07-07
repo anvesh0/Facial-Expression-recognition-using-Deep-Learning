@@ -9,7 +9,6 @@ face_classifier = cv2.CascadeClassifier(r'C:\Users\anves\Documents\Emotion_Detec
 classifier =load_model(r'C:\Users\anves\Documents\Emotion_Detection_CNN-main\model.h5')
 
 emotion_labels = ['Angry','Disgust','Fear','Happy','Neutral', 'Sad', 'Surprise']
-
 cap = cv2.VideoCapture(0)
 
 
